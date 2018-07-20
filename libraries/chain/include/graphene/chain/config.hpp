@@ -23,9 +23,9 @@
  */
 #pragma once
 
-#define GRAPHENE_SYMBOL             "GXC"
-#define GRAPHENE_ADDRESS_PREFIX     "GXC"
-#define GRAPHENE_SYMBOL_GXS         "GXS"
+#define GRAPHENE_SYMBOL             "RED"
+#define GRAPHENE_ADDRESS_PREFIX     "RED"
+#define GRAPHENE_SYMBOL_GXS         "RES"
 
 #define GRAPHENE_MIN_ACCOUNT_NAME_LENGTH 1
 #define GRAPHENE_MAX_ACCOUNT_NAME_LENGTH 63
@@ -147,7 +147,7 @@
 #define GRAPHENE_RECENTLY_MISSED_COUNT_INCREMENT             4
 #define GRAPHENE_RECENTLY_MISSED_COUNT_DECREMENT             3
 
-#define GRAPHENE_CURRENT_DB_VERSION                          "GXCHAINDB1.2"
+#define GRAPHENE_CURRENT_DB_VERSION                          "REDCHAIN1.0"
 
 #define GRAPHENE_IRREVERSIBLE_THRESHOLD                      (70 * GRAPHENE_1_PERCENT)
 

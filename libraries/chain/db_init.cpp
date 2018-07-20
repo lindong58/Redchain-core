@@ -559,7 +559,7 @@ void database::init_genesis(const genesis_state_type& genesis_state)
    const auto get_asset_id = [&assets_by_symbol](const string& symbol) {
       auto itr = assets_by_symbol.find(symbol);
 
-      if( symbol == "GXC" )
+      if( symbol == "RED" )
           itr = assets_by_symbol.find(GRAPHENE_SYMBOL);
 
       FC_ASSERT(itr != assets_by_symbol.end(),
